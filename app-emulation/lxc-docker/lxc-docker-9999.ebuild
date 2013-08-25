@@ -8,7 +8,7 @@ DESCRIPTION="Docker complements LXC with a high-level API which operates at the 
 HOMEPAGE="http://www.docker.io/"
 SRC_URI=""
 
-EGIT_REPO_URI="git://github.com/dotcloud/docker.git"
+EGIT_REPO_URI="git://github.com/alexanderhaensch/docker.git"
 if [[ ${PV} == *9999 ]]; then
 	KEYWORDS=""
 else
